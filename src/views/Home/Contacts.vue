@@ -1,0 +1,3 @@
+<template>
+    جهات الإتصال
+</template>

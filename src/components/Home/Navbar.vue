@@ -1,5 +1,5 @@
 <template>
-    <nav class="hidden md:flex justify-between items-center bg-white px-8 shadow-md h-16">
+    <nav class="hidden md:flex justify-between items-center bg-white border-b px-8 h-16">
         <div>
             <p class="font-bold">
                   أهلاُ بك

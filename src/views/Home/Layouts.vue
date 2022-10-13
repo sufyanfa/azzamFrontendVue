@@ -3,7 +3,7 @@
     <Aside />
     <div class="w-full md:flex-1 relative">
       <Navbar />
-      <main class="px-8 py-6">
+      <main class="px-8 py-6 bg-[#FAFBFC]">
         <router-view></router-view>
       </main>
     </div>

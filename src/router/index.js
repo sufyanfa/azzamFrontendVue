@@ -5,6 +5,8 @@ import store from '../store'
 import Welcome from '../views/Welcome.vue'
 import SignUp from '../views/SignUp.vue'
 import LogIn from '../views/LogIn.vue'
+import Team from '../views/Team.vue'
+import PageNotFound from '../views/NotFound.vue'
 /* Guest */
 
 /* Authenticated */
@@ -15,6 +17,14 @@ import EventID from '../views/Home/EventID.vue'
 import EventCreate from '../views/Home/EventCreate.vue'
 import EventEditID from '../views/Home/EventEditID.vue'
 import MyAccount from '../views/Home/MyAccount.vue'
+
+
+
+// new
+import Contacts from '../views/Home/Contacts.vue'
+import Services from '../views/Home/Services.vue'
+import Reports from '../views/Home/Reports.vue'
+
 /* Authenticated */
 
 import Verification from '../views/verification.vue'
@@ -40,6 +50,16 @@ const routes = [
       title: `عزام | الدخول`
     }
   },
+  { path: '/team', name: 'Team', component: Team,
+    meta: {
+      middleware: "guest",
+      title: `عزام | فريق العمل`
+    }
+  },
+  {path: '/:pathMatch(.*)*', name: 'PageNotFound', component: PageNotFound, meta: {
+    title: `عزام | صفحة غير موجودة`
+  }
+},
   //  Authenticated routes 
   // Admin routes
   { path: '/home', name: 'Dashboard', component: Dashboard, 
@@ -53,6 +73,9 @@ const routes = [
       { path: 'event/:id', name: 'EventID',component: EventID, props: true,meta: {title: `عزام | تفاصيل الحدث`}},
       { path: 'event/edit/:id', name: 'EventEditID', component: EventEditID,props: true,meta: {title: `عزام | تعديل الحدث`}},
       { path: 'myaccount', name: 'MyAccount',component: MyAccount,meta: {title: `عزام | حسابي`}},
+      { path: 'contacts', name: 'Contacts',component: Contacts,meta: {title: `عزام | المدعوين السابقين`}},
+      { path: 'services', name: 'Services',component: Services,meta: {title: `عزام | الخدمات`}},
+      { path: 'reports', name: 'Reports',component: Reports,meta: {title: `عزام | التقارير`}},
 
     ]
   },
@@ -66,7 +89,9 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  routes,
+  linkActiveClass: 'active-link',
+  linkExactActiveClass: 'exact-active-link',
 })
 
 router.beforeEach((to, from, next) => {
