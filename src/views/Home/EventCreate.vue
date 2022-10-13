@@ -70,8 +70,8 @@ export default {
         socail: yup.string(),
       }),
       yup.object({ 
-        name: yup.string().required().typeError("الرجاء ادخال اسم الحدث"),
-        description : yup.string().typeError("الرجاء ادخال وصف الحدث"),
+        name: yup.string(),
+        description : yup.string(),
         eventID : yup.number().nullable(true),
         organizetion : yup.string(),
         is_online : yup.boolean(),

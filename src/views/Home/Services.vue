@@ -73,8 +73,6 @@
             </div>
           </a>
         </div>
-        
-        
       </div>
       <a class="flex justify-center items-center text-center font-semibold text-indigo-600 hover:text-indigo-700 leading-normal" href="#">
         <span class="mr-2.5">عرض جميع الخدمات</span>

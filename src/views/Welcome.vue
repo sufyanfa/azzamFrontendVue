@@ -265,7 +265,7 @@ export default {
             <img class="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" src="https://pbs.twimg.com/profile_images/1573072036003454980/TcTtYL_e_400x400.jpg" alt="">
             <div class="bg-gradient-white absolute bottom-0 left-0 w-full p-8 pt-20" style="backdrop-filter: blur(3px);">
                 <h3 class="mb-1 text-2xl font-semibold leading-snug">آنس</h3>
-                <p class="text-gray-600 font-medium">عمليات</p>
+                <p class="text-gray-600 font-medium">مدير منتج</p>
             </div>
             </div>
         </div>
