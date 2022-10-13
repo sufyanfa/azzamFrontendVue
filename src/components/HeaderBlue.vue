@@ -80,7 +80,7 @@
             </div>
             <div class="w-full">
                 <router-link to="/signup" class="py-2 mt-2 px-5 block w-full text-center text-lg border bg-primary text-gray-900 font-medium rounded-10">
-                دخول
+                التسجيل
                 </router-link>
             </div>
             </div>
