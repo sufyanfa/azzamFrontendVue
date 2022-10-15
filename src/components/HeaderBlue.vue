@@ -12,6 +12,7 @@
             <ul class="flex items-center mr-10 space-x-8 space-x-reverse">
             <li class="nav__item--des"><a href="#solution">الحلول</a></li>
             <li class="nav__item--des"><a href="#features">المميزات</a></li>
+            <li class="nav__item--des"><a href="#team">الفريق</a></li>
             <li class="nav__item--des"><a href="#contact">تواصل</a></li>
             </ul>
         </div>
@@ -44,7 +45,7 @@
         </div>
     </div>
     </div>
-    <div v-if="showMenu" class="fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-50">
+    <div v-if="showMenu" class="fixed top-0 left-0 bottom-0 w-4/6 sm:max-w-xs z-40">
     <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
     <nav class="relative z-10 px-4 py-8 bg-gray-900 text-white h-full">
         <div class="flex flex-wrap justify-between h-full">
@@ -55,10 +56,10 @@
                 <img src="../assets/images/azzamWithName.svg" alt="عزام">
                 </router-link>
             </div>
-            <div v-on:click="showMenu = !showMenu" class="w-auto">
-                <a class="navbar-burger" href="#">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <div v-on:click="showMenu = !showMenu" class="w-auto text-red-600">
+                <a class="z-10" href="#">
+                <svg class="text-white h-6 w-6" width="24" height="24" viewBox="0 0 24 24" fill="cu" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 18L18 6M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
                 </a>
             </div>
@@ -68,6 +69,7 @@
             <ul>
             <li class="mb-12"><a class="nav__item-ph" href="#solution">الحلول</a></li>
             <li class="mb-12"><a class="nav__item-ph" href="#features">المميزات</a></li>
+            <li class="mb-12"><a class="nav__item-ph" href="#team">الفريق</a></li>
             <li class="mb-12"><a class="nav__item-ph" href="#contact">تواصل</a></li>
             </ul>
         </div>

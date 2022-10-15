@@ -56,13 +56,13 @@
         @apply mt-2 mr-9 text-base text-gray-600;
     }
     .solution__h2{
-        @apply mb-6 font-bold text-7xl text-gray-900;
+        @apply mb-6 font-bold text-5xl text-gray-900;
     }
     .solution__li{
         @apply mb-4 flex items-center font-semibold text-gray-900;
     }
     .solution__p{
-        @apply mb-16 text-base text-gray-600;
+        @apply mb-6 text-base text-gray-600;
     }
     .solution__svg{
         @apply ml-2 w-6 h-6 text-primary;
