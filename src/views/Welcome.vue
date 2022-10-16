@@ -244,7 +244,7 @@ export default {
             <img class="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" src="https://media-exp1.licdn.com/dms/image/C4D03AQG9-kN0OElkKA/profile-displayphoto-shrink_800_800/0/1648675698801?e=2147483647&v=beta&t=gqmdCF7rN-yiMvD1OfDOJAcgapUZHwX-4DFmIUpqav4" alt="">
             <div class="bg-gradient-white absolute bottom-0 left-0 w-full p-8 pt-14" style="backdrop-filter: blur(3px);">
                 <h3 class="mb-1 text-2xl font-semibold leading-snug">عبدالهادي ال بوسنينه</h3>
-                <p class="text-gray-600 font-medium">Operation Manager</p>
+                <p class="text-gray-600 font-medium">CEO</p>
             </div>
             </div>
         </div>
